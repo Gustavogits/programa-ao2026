@@ -165,3 +165,13 @@ import leia, { questionInt } from "readline-sync"
 
 
 
+// var idade = leia.questionInt("QUAL A SUA IDADE? ");
+
+// if(idade >= 18){
+//     console.log("PODE VIAJAR!!!")
+// } else if(idade < 18){
+// var permissao = leia.question("POSSUI PERMISSAO DOS PAIS? ")
+// if(permissao === 'sim'){
+// console.log("PODE VIAJAR!!!")
+// }
+// }
