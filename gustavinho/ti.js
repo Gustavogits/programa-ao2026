@@ -182,9 +182,22 @@ import leia, { questionInt } from "readline-sync"
 
 
 
-var nota1 = leia.questionFloat("DIGITE O VALOR DA PRIMEIRA NOTA: ");
-var nota2 = leia.questionFloat("DIGITE O VALOR DA SEGUNDA NOTA: ");
-var nota3 = leia.questionFloat("DIGITE O VALOR DA TERCEIRA NOTA: ");
-var resultado = (nota1 + nota2 + nota3) / 3;
+// var nota1 = leia.questionFloat("DIGITE O VALOR DA PRIMEIRA NOTA: ");
+// var nota2 = leia.questionFloat("DIGITE O VALOR DA SEGUNDA NOTA: ");
+// var nota3 = leia.questionFloat("DIGITE O VALOR DA TERCEIRA NOTA: ");
+// var resultado = (nota1 + nota2 + nota3) / 3;
 
-console.log(resultado >= 7 ? "APROVDO" : "REPROVADO");
+// console.log(resultado >= 7 ? "APROVDO" : "REPROVADO");
+
+
+
+// var temperatura = leia.questionFloat("DIGITE A TEMPERATURA DO SEU COMPUTADOR: ");
+//  if(temperatura >= 0 && temperatura <= 49){
+//     console.log("A TEMPERATURA DO SEU COMPUTADOR ESTA EM RESFRIAMENTO CERITICO!!!")
+//  } else if(temperatura >= 50 && temperatura <= 89){
+//     console.log("A TEMPERATURA DO SEU COMPUTADOR ESTA NORMAL!!!")
+//  }else if(temperatura >= 90 && temperatura <= 109){
+//     console.log("ATENÇÃO!!!")
+//  } else {
+//     console.log("SEU COMPUTADOR ESTA ENTRANDO EM SUPER AQUECIMENTO!!!")
+//  }
