@@ -175,3 +175,16 @@ import leia, { questionInt } from "readline-sync"
 // console.log("PODE VIAJAR!!!")
 // }
 // }
+
+
+//TODAS AS ATIVIDADES |
+//    SEMANA 14       |
+
+
+
+var nota1 = leia.questionFloat("DIGITE O VALOR DA PRIMEIRA NOTA: ");
+var nota2 = leia.questionFloat("DIGITE O VALOR DA SEGUNDA NOTA: ");
+var nota3 = leia.questionFloat("DIGITE O VALOR DA TERCEIRA NOTA: ");
+var resultado = (nota1 + nota2 + nota3) / 3;
+
+console.log(resultado >= 7 ? "APROVDO" : "REPROVADO");
