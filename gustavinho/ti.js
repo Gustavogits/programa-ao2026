@@ -201,3 +201,31 @@ import leia, { questionInt } from "readline-sync"
 //  } else {
 //     console.log("SEU COMPUTADOR ESTA ENTRANDO EM SUPER AQUECIMENTO!!!")
 //  }
+
+
+
+// var pontos = 10;
+// var bonus =  5;
+// var total = (pontos++) + (++bonus);
+
+// console.log("total: " + total);
+// console.log("pontos atuais: " + pontos);
+// console.log("bonus atual: " + bonus);
+
+
+
+// var nota1 = leia.questionFloat("Digite a sua primeira nota: ");
+// var nota2 = leia.questionFloat("Digite a sua segunda nota: ");
+// var nota3 = leia.questionFloat("Digite a sua terceira nota: ");
+// var nota4 = leia.questionFloat("Digite a sua quarta nota: ");
+// var nota5 = leia.questionFloat("Digite a sua quinta nota: ");
+// var total = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+// var freq = leia.questionInt("Digite a sua frequencia: ")
+
+// if(total >= 7 && freq >= 70){
+//     console.log("-----------")
+//     console.log("VOCE PASSOU!!!!!")
+// }else {
+//     console.log("-------------")
+//     console.log("VOCE REPROVOU!!!!!")
+// }
