@@ -229,3 +229,29 @@ import leia, { questionInt } from "readline-sync"
 //     console.log("-------------")
 //     console.log("VOCE REPROVOU!!!!!")
 // }
+
+
+
+// var nota1 = leia.questionFloat("Digite a sua primira nota: ");
+// var nota2 = leia.questionFloat("Digite a sua segunda nota: ");
+// var nota3 = leia.questionFloat("Digite a sua terceira nota: ");
+// var nota4 = leia.questionFloat("Digite a sua quarta nota: ");
+// var nota5 = leia.questionFloat("Digite a sua quinta nota: ");
+// var freq = leia.questionFloat("Digite a sua frequencia: ");
+// var total = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+
+// if(total >= 6 && freq >= 75){
+//     console.log("Voce passou de ano!!!")
+// } else {
+//     console.log("Vocereprovou de ano!!!")
+// }
+
+
+
+var valor = leia.questionFloat("Qual o valor da sua compra? ");
+var vip = leia.keyInSelect(['SIM','NAO'], 'É cliente vip');
+
+if(valor >= 1000 && vip === 0){
+    var desconto = leia.questionFloat(valor * 0.20) + valor - desconto
+    console.log("Voce recebeu 20% de desconto!!!")
+}
