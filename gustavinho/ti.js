@@ -248,10 +248,60 @@ import leia, { questionInt } from "readline-sync"
 
 
 
-var valor = leia.questionFloat("Qual o valor da sua compra? ");
-var vip = leia.keyInSelect(['SIM','NAO'], 'É cliente vip');
+// var valor = leia.questionFloat("Qual o valor da sua compra? ");
+// var vip = leia.keyInSelect(['SIM','NAO'], 'É cliente vip');
 
-if(valor >= 1000 && vip === 0){
-    var desconto = leia.questionFloat(valor * 0.20) + valor - desconto
-    console.log("Voce recebeu 20% de desconto!!!")
-}
+// if(valor >= 1000 && vip === 0){
+//     var desconto = valor * 0.20
+//     var final = valor - desconto
+//     console.log("Voce recebeu 20% de desconto!!!") + final
+// } else if(valor >= 500 && valor <= 999 && vip === 0) {
+//     var desconto = valor * 0.10
+//     var final = valor - desconto
+//     console.log("Voce recebeu 10% de desconto!!!") + final
+// }else if(valor >= 1 && valor <= 499 && vip === 0) {
+//     var desconto = valor * 0.05
+//     var final = valor - desconto
+//     console.log("Voce recebeu 5% de desconto!!!") + final
+// } else {
+// console.log("Voce nao recebera desconto!!!") + valor
+// }
+
+
+
+// var somanotas = 0
+// var qnt = 5
+// var contador = 1
+
+// while(contador <= qnt){
+//     var nota = leia.questionFloat("Digite a nota " + contador + " ")
+
+//     somanotas = somanotas + nota
+//     contador++
+// }
+// var media = somanotas/qnt
+// console.log("media " + media.toFixed(2))
+
+// somanotas = 0
+// for(var cont = 1; cont <= quantidade; cont++){
+//     var nota = leia.questionFloat("Digite a sa nota " + cont + " ")
+//     somanotas = somanotas + nota
+// }
+
+// var media = somanotas / qnt
+// console.log("media " + media.toFixed(2))
+
+// var finalnota = false
+// while(finalnota === false){
+//     var nota = leia.questionFloat("Digite a sua nota " + contador + ": ")
+//     soma = some + nota;
+
+//     if(contados === qnt){
+//         finalnota = true;
+//     }
+
+//     contados++;
+// }
+
+
+
